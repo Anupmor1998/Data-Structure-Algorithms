@@ -10,6 +10,7 @@ Output: False
 There is no Pythagorean triplet.
 */
 #include<iostream>
+#include<cmath>
 using namespace std;
 int find_triplets(int arr[],int n)
 {
@@ -24,7 +25,7 @@ int find_triplets(int arr[],int n)
         {
             if(arr[l] + arr[h] == arr[i])
             {
-                cout<<"The Pythagorian Triplets are "<<arr[l]<<", "<<arr[h]<<" and "<<arr[i]<<endl;
+                cout<<"The Pythagorian Triplets are "<<sqrt(arr[l])<<", "<<sqrt(arr[h])<<" and "<<sqrt(arr[i])<<endl;
                 return 1;
             }
             if(arr[l] + arr[h] > arr[i])

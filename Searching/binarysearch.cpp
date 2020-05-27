@@ -1,5 +1,7 @@
+//This program is for binary searching
 #include<iostream>
 using namespace std;
+//This is the function for binary search in which required arguments are the array, its lower index, higher index, the variable you want to search
 int binary_search(int arr[],int l,int h,int x)
 {
     if (l<=h)

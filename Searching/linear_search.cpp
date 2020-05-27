@@ -1,5 +1,7 @@
+//This program is for Linear Search
 #include<iostream>
 using namespace std;
+//This is the function for linear search in which required arguments are the array, the variable you want to search and size of array
 int linear_search(int arr[],int x, int n)
 {
     int i;
