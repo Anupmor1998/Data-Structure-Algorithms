@@ -36,6 +36,7 @@ int find_triplets(int arr[],int n)
     }   
     return -1;
 }
+//Main Function
 int main()
 {
     int n,x;
